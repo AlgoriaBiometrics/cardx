@@ -21,7 +21,7 @@
 #'
 #' @details
 #' For the `ard_stats_t_test()` function, the data is expected to be one row per subject.
-#' The data is passed as `t.test(data[[variable]] ~ data[[by]], paired = FALSE, ...)`.
+#' The data is passed as `t.test(data[[variable]] ~ data[[by]], ...)`.
 #' This function follows the defaults in [stats::t.test()], using Welch's t-test
 #' for unpaired two-sample comparisons.
 #'
